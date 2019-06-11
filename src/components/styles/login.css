@@ -1,0 +1,103 @@
+:root {
+  --primario: #329EDC;
+  --primariohover: #2D8EC6;
+  --secundario: #BEC1C2;
+  --secundariohover: #A4A6A7;
+}
+
+
+.contenedor-formulario {
+  background: #56CCF2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario {
+  background-color: #FFFFFF;
+  padding: 2rem 1.5rem;
+  border-radius: .5rem;
+  width: 25rem;
+}
+
+.formulario-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Krub', sans-serif;
+  margin-bottom: 0;
+}
+
+.App-logo {
+  width: 5rem;
+  margin-top: .3rem;
+  animation: App-logo-spin infinite 20s linear;
+  pointer-events: none;
+}
+
+.contenedor-campos {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contenedor-campos label {
+  flex: 0 0 calc(40% - 1rem);
+  font-size: .8rem;
+  color: #000000;
+}
+
+.contenedor-campos .campo {
+  flex: 0 0 calc(60% - 1rem);
+  max-width: 100%;
+  padding: .5rem .1rem;
+}
+
+.contenedor-botones {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  display: block;
+  flex: 0 0 calc(50% - 2rem);
+  font-family: 'Open Sans', sans-serif;
+  padding: .5rem 1.2rem;
+  border-radius: .3rem;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: var(--primario);
+  color: #FFFFFF;
+}
+
+.btn-primary:hover {
+  background-color: #2D8EC6;
+}
+
+.btn-secondary {
+  background-color: var(--secundario);
+  color: #000000;
+}
+
+.btn-secondary:hover {
+  background-color: var(--secundariohover);
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

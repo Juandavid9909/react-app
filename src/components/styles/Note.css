@@ -1,0 +1,22 @@
+.Note {
+	background-color: #FFF;
+	padding: 20px;
+	color: #000;
+	margin-top: 10px;
+}
+
+.btn-close {
+	background-color: #BC0E0E;
+	color: #FFFFFF;
+	padding: 5px 8px;
+	border-radius: 5px;
+}
+
+.btn-close:hover {
+	background-color: #9C0D0D;
+	cursor: pointer;
+}
+
+p {
+	margin-top: 12px;
+}

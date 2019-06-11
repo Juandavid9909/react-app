@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #2c3e50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.contenedor-navegacion {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000000;
+}
+
+.item {
+  font-size: 1.3rem;
+  padding: 1rem 1.2rem;
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+}
+
+.item:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
+.contenedor {
+  width: 95%;
+}
+
+.notesHeader, .notesBody, .notesFooter {
+  background-color: rgba(0, 0, 0, .5);
+  padding: 2rem;
+  margin: 0;
+}
+
+.notesFooter {
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  width: 100%;
+}
